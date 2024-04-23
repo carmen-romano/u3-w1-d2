@@ -3,7 +3,7 @@ import Alert from "react-bootstrap/Alert";
 import Button from "react-bootstrap/Button";
 import "../../src/App.css";
 
-function Welcome() {
+let Welcome = () => {
   const [show, setShow] = useState(true);
 
   return (
@@ -25,6 +25,6 @@ function Welcome() {
       </Alert>
     </>
   );
-}
+};
 
 export default Welcome;

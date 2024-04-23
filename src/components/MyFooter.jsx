@@ -1,7 +1,7 @@
 import Card from "react-bootstrap/Card";
 import "../../src/App.css";
 
-function MyFooter() {
+let MyFooter = () => {
   return (
     <Card className="text-center">
       <Card.Header>EpiBooks</Card.Header>
@@ -16,6 +16,6 @@ function MyFooter() {
       </Card.Footer>
     </Card>
   );
-}
+};
 
 export default MyFooter;
